@@ -12,12 +12,12 @@
     
 }
 
-/* responsive start */
-
 .container { /* sets container as flex item with row view */
     display: flex;
     flex-direction: row;
 }
+
+/* responsive start */
 
 @media (max-width: 500px) { /* sets container as column view at less than 500px */
     .container {

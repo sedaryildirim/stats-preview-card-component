@@ -1,0 +1,29 @@
+:root {
+    --clr-primary-300: hsl(233, 47%, 7%); /* main bg color */
+    --clr-primary-400: hsl(244, 38%, 16%); /* main card bg color */
+    --clr-accent-500: hsl(277, 64%, 61%); /* accent color */
+    --clr-mainsandtats-600: hsl(0, 0%, 100%); /* main heading & stats */
+    --clr-mainparagraph-700: hsla(0, 0%, 100%, 0.75); /* main paragraph */
+    --clr-statheadings-800: hsla(0, 0%, 100%, 0.6); /* stat headings */
+    
+    --ff-primary-400: 'Inter', sans-serif; /* cta */
+    --ff-primary-700: 'Inter', sans-serif; /* bold cta */
+    --ff-accent-400: 'Lexend Deca', sans-serif; /* body text */
+}
+
+body {
+    font-size: 0.9375rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (min-width: 375px) {
+    .container {
+      flex-direction: column;
+    }
+  }
+

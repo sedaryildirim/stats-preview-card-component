@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="/css/">
-  <script src="/js/js.js"></script>
+  <link rel="stylesheet" href="/css/styles.css">
+  <script src="js/js.js"></script>
   <title>Frontend Mentor | Stats preview card component</title>
   
   <style>
@@ -21,44 +21,49 @@
   <main>
     <div class="container">
       
-      <header>
-        <div>
-          <h1>
-            <p>
-              Get insights that help your business grow.
-            </p>
-          </h1>
-        </div>
-      </header>
+      <div class="main">
+        <div class="text-body">
+          <section class="text">
+            <header>
+              <div>
+                <h1>
+                  Get insights that help your business grow.
+                </h1>
+              </div>
+            </header>
+            
+            <section>
+              <div>
+                <p>
+                  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+                  experience, and overall efficiency.
+                </p>
+              </div>
+            </section>
+            
+            <section>
+              <div class="list-items">
+                <p>
+                  10k+ companies
+                  314 templates
+                  12m+ queries
+                </p>
+              </div>
+            </div>
+          </section>
+        </section>
+        
+        <section class="images">
+          <div>
+            <picture>
+              <source media="(min-width: 375px), (max-width: 1440px" srcset="/images/image-header-desktop.jpg">
+              <source media="min-width: 0px), (max-width: 375px)" srcset="/images/image-mobile-desktop.jpg">
+              <img src="/images/image-header-desktop.jpg" alt="">
+            </picture>
+          </div>
+        </section>
+      </div>
       
-      <section>
-        <div>
-          <p>
-            Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-            experience, and overall efficiency.
-          </p>
-        </div>
-      </section>
-      
-      <section>
-        <div>
-          <ul>    
-            <li>10k+ companies</li>
-            <li>314 templates</li>
-            <li>12m+ queries</li>
-          </ul>
-        </div>
-      </section>
-
-      <section>
-        <div>
-          <picture>
-            <source media="(min-width: 375px), (max-width: 1440px" srcset="/images/image-header-desktop.jpg">
-            <source media="min-width: 0px), (max-width: 375px)" srcset="/images/image-mobile-desktop.jpg">
-            <img src="/images/image-header-desktop.jpg" alt="">
-          </picture>
-        </div>
-      </section>
       
       <section>
         <div class="attribution">

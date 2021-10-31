@@ -13,11 +13,60 @@
 
 body {
     font-size: 0.9375rem;
+    background-color: var(--clr-primary-300);
+}
+
+h1 {
+    color: var(--clr-mainsandtats-600);
+    font-family: var(--ff-primary-700);
+}
+
+p {
+    color: var(--clr-mainparagraph-700);
+    font-family: var(--ff-accent-400);
+}
+
+.list-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: var(--clr-mainparagraph-700);
+    font-family: var(--ff-accent-400);
+    list-style: none;
 }
 
 .container {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.main {
+    display: flex;
     flex-direction: row;
+    background-color: var(--clr-primary-400);
+}
+
+.images {
+    display: flex;
+    align-self: flex-end;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.text-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 /* Responsive layout - makes a one column layout instead of a two-column layout */
@@ -26,4 +75,3 @@ body {
       flex-direction: column;
     }
   }
-

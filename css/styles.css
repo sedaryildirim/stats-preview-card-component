@@ -64,6 +64,7 @@ span {
   background: var(--clr-card-bg);
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  overflow: hidden;
 }
 
 .image {
@@ -75,6 +76,7 @@ span {
   position: relative;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  overflow: hidden;
 }
 
 .image::before {
@@ -87,6 +89,7 @@ span {
   background-color: rgba(148, 0, 211, 0.5);
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  overflow: hidden;
 }
 
 .card, .content {
@@ -107,4 +110,51 @@ span {
 .attribution {
   color: white;
   position: relative;
+}
+
+@media (min-width: 440px) {
+  .card {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  .image {
+    background: url('/images/image-header-desktop.jpg');
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+  }
+
+  .card {
+    border-top-left-radius: 10px;
+    overflow: hidden;
+  }
+
+header {
+  text-align: left;
+  max-width: 300px;
+}
+
+.content-paragraph {
+  text-align: left;
+  padding-bottom: 50px;
+}
+
+.content {
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 25px
+}
+
+.attribution {
+  color: white;
+  position: relative;
+}
+
 }

@@ -77,6 +77,18 @@ span {
   border-top-right-radius: 10px;
 }
 
+.image::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(148, 0, 211, 0.5);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
 .card, .content {
   text-align: center;
   margin: 25px;
@@ -88,7 +100,7 @@ span {
 
 .sub-stat-text {
   font-family: var(--clr-main-heading-stats);
-  font-size: 0.8em;
+  font-size: 0.75em;
   letter-spacing: 1px;
 }
 

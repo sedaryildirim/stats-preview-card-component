@@ -49,7 +49,7 @@ body {
 /* responsive start */
 
 @media (max-width: 500px) { /* sets container as column view at less than 500px */
-  .container {
+  .card-contents {
     flex-direction: column;
   }
   .attribution {
@@ -58,7 +58,7 @@ body {
   }
 }
 
-@media (max-width: 1440px) {
+@media (min-width: 500px) {
   .hero-image-container {
     background: url('/images/image-header-desktop.jpg') no-repeat center center/cover;
   }
@@ -67,6 +67,5 @@ body {
     flex-direction: row-reverse;
   }
 }
-
 
 /* responsive end */

@@ -114,6 +114,7 @@ span {
     display: flex;
     flex-direction: row-reverse;
     overflow: hidden;
+    border-radius: 10px;
   }
 
   .stats {
@@ -127,11 +128,6 @@ span {
     background: url('../images/image-header-desktop.jpg');
     border-bottom-right-radius: 10px;
     border-top-left-radius: 0px;
-    overflow: hidden;
-  }
-
-  .card {
-    border-top-left-radius: 10px;
     overflow: hidden;
   }
 

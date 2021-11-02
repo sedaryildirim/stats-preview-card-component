@@ -87,8 +87,6 @@ span {
   top: 0px;
   left: 0px;
   background-color: rgba(148, 0, 211, 0.5);
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
   overflow: hidden;
 }
 
@@ -128,6 +126,7 @@ span {
   .image {
     background: url('/images/image-header-desktop.jpg');
     border-bottom-right-radius: 10px;
+    border-top-left-radius: 0px;
     overflow: hidden;
   }
 
@@ -152,9 +151,14 @@ header {
   padding-top: 25px
 }
 
+.content-text {
+  max-width: 800px;
+}
+
 .attribution {
   color: white;
   position: relative;
+  font-family: var(--clr-main-paragraph);
 }
 
 }

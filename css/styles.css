@@ -62,13 +62,12 @@ span {
 
 .card {
   background: var(--clr-card-bg);
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-radius: 10px;
   overflow: hidden;
 }
 
 .image {
-  background-image: url('./images/image-header-mobile.jpg');
+  background-image: url('../images/image-header-mobile.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -114,6 +113,7 @@ span {
   .card {
     display: flex;
     flex-direction: row-reverse;
+    overflow: hidden;
   }
 
   .stats {
@@ -124,7 +124,7 @@ span {
   }
 
   .image {
-    background: url('./images/image-header-desktop.jpg');
+    background: url('../images/image-header-desktop.jpg');
     border-bottom-right-radius: 10px;
     border-top-left-radius: 0px;
     overflow: hidden;

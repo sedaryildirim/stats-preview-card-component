@@ -104,10 +104,6 @@ span {
   letter-spacing: 1px;
 }
 
-.attribution {
-  color: white;
-  position: relative;
-}
 
 @media (min-width: 440px) {
   .card {
@@ -116,45 +112,45 @@ span {
     overflow: hidden;
     border-radius: 10px;
   }
-
+  
   .stats {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     text-align: left;
   }
-
+  
   .image {
     background: url('../images/image-header-desktop.jpg');
     border-bottom-right-radius: 10px;
     border-top-left-radius: 0px;
     overflow: hidden;
   }
-
-header {
-  text-align: left;
-  max-width: 300px;
-}
-
-.content-paragraph {
-  text-align: left;
-  padding-bottom: 50px;
-}
-
-.content {
-  padding-right: 50px;
-  padding-left: 50px;
-  padding-top: 25px
-}
-
-.content-text {
-  max-width: 800px;
-}
-
-.attribution {
-  color: white;
-  position: relative;
-  font-family: var(--clr-main-paragraph);
-}
-
+  
+  header {
+    text-align: left;
+    max-width: 300px;
+  }
+  
+  .content-paragraph {
+    text-align: left;
+    padding-bottom: 50px;
+  }
+  
+  .content {
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 25px
+  }
+  
+  .content-text {
+    max-width: 800px;
+  }
+  
+  .attribution {
+    color: white;
+    position: relative;
+    font-family: var(--clr-main-paragraph);
+  }
+  
 }
